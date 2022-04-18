@@ -13,3 +13,6 @@ for row in q:
 	ssts = row[3] if row[3] == "SUSSCESS" else row[3]+" "
 	print(f"{row[2]} \t{ssts} \t{row[7]}")
 	#print(json.dumps(row, indent=4))
+
+
+
